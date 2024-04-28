@@ -212,6 +212,21 @@
         "type": "github"
       }
     },
+    "process-compose": {
+      "locked": {
+        "lastModified": 1713920695,
+        "narHash": "sha256-pQIg3wrNBDdRiuhcVC8DFmTXK8GHtR+iV+5Gvsozx5s=",
+        "owner": "Platonic-Systems",
+        "repo": "process-compose-flake",
+        "rev": "ee8cd505f08f6cd691930e70987a306b7726851b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Platonic-Systems",
+        "repo": "process-compose-flake",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "crane": "crane",
@@ -219,7 +234,9 @@
         "flake-parts": "flake-parts",
         "nix-filter": "nix-filter",
         "nixpkgs": "nixpkgs",
-        "pgrx": "pgrx"
+        "pgrx": "pgrx",
+        "process-compose": "process-compose",
+        "services-flake": "services-flake"
       }
     },
     "rust-analyzer-src": {
@@ -236,6 +253,21 @@
         "owner": "rust-lang",
         "ref": "nightly",
         "repo": "rust-analyzer",
+        "type": "github"
+      }
+    },
+    "services-flake": {
+      "locked": {
+        "lastModified": 1709510351,
+        "narHash": "sha256-FIG8YmvSoy99Z7jrcXZi2Mw11lM53Z2ex8cQ1h1Y6eU=",
+        "owner": "justinrubek",
+        "repo": "services-flake",
+        "rev": "577e7d44d9d0314697c625ff1fdbb4ad8b5fade3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "justinrubek",
+        "repo": "services-flake",
         "type": "github"
       }
     }

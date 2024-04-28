@@ -5,3 +5,5 @@
 **/*.rs.bk
 sql/arrays-1.0.sql
 result
+.direnv
+.data
